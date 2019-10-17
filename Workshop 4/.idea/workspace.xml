@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7006f726-aca1-412f-9d56-aa245c9336c8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RNVg5IfHxFFgZRCmpG2wRiz8Ld" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Node.js/Chrome.Unnamed (1)">
+    <configuration name="Unnamed (1)" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="3000">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
+      <item itemvalue="Attach to Node.js/Chrome.Unnamed (1)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7006f726-aca1-412f-9d56-aa245c9336c8" name="Default Changelist" comment="" />
+      <created>1569507648317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569507648317</updated>
+      <workItem from="1569507650732" duration="2732000" />
+      <workItem from="1569513889687" duration="11374000" />
+      <workItem from="1569595831389" duration="6576000" />
+      <workItem from="1569670988939" duration="3875000" />
+      <workItem from="1569769091304" duration="617000" />
+      <workItem from="1569770998675" duration="1820000" />
+      <workItem from="1569941709278" duration="78000" />
+      <workItem from="1569942437326" duration="323000" />
+      <workItem from="1569958134496" duration="1256000" />
+      <workItem from="1570040234498" duration="5406000" />
+      <workItem from="1570127071221" duration="4968000" />
+      <workItem from="1570200467259" duration="6345000" />
+      <workItem from="1570217353100" duration="8936000" />
+      <workItem from="1570278097493" duration="600000" />
+      <workItem from="1570288324936" duration="11981000" />
+      <workItem from="1570467695469" duration="599000" />
+      <workItem from="1570546314451" duration="510000" />
+      <workItem from="1570562063438" duration="12727000" />
+      <workItem from="1570726667560" duration="8685000" />
+      <workItem from="1570804124352" duration="4221000" />
+      <workItem from="1570823786682" duration="4231000" />
+      <workItem from="1570905617839" duration="4227000" />
+      <workItem from="1570986369781" duration="9000" />
+      <workItem from="1571167332081" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/models/User.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
