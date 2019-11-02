@@ -1,0 +1,82 @@
+{{> header}}
+
+
+{{#if isLogged}}
+<section class="actions">
+    <form action="/refill" method="POST">
+        <h2>Salary time? Refill your account amount.</h2>
+        <input type="text" name="refill" id="refill-amount">
+        <button type="submit">Refill</button>
+    </form>
+    <div>
+        <h2>New expense comming up?</h2>
+        <a href="/create/expence">Add it now</a>
+    </div>
+</section>
+
+<hr class="separator">
+
+
+{{#if isLogged}}
+        {{#if expences}}
+        <table class="expenses">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Merchant</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Description</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        {{#each expences}}
+        <tr>
+            <td>
+                <img src="/images/date.png" />
+                <p>{{date}}</p>
+            </td>
+            <td>
+                <p>{{merchant}}</p>
+                <div class="report">
+                    {{#if report}}
+                    <a href="/report/{{_id}}">Report</a>
+                    {{/if}}
+
+                </div>
+            </td>
+            <td>
+                <img src="/images/amount.png" alt="">
+                <p> <span>{{total}}</span> лв</p>
+            </td>
+            <td>
+                <img src="/images/category.png" alt="">
+                <p>{{category}}</p>
+            </td>
+            <td>
+                <img src="/images/hastag.png" alt="">
+                <p>{{description}}</p>
+            </td>
+        </tr>
+        {{/each}}
+{{/if}}
+
+    </tbody>
+</table>
+
+        {{else}}
+        <h1 class="no-expenses">No expenses founded so far.. <span>GOOD JOB!</span></h1>
+        {{/if}}
+
+
+
+
+
+{{else}}
+<p class="guest-message">MoneyGone? The best expense tracker tool of all time!<br>Аre you new here? <a
+        href="/register">Register</a> yourself!</p>
+
+{{/if}}
+
+{{> footer}}

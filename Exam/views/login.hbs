@@ -1,0 +1,25 @@
+{{>header}}
+            {{#if errors}}
+                {{#each errors}}
+                    <section class="notifications">
+                        <p class="notification-message">{{this}}</p>
+                    </section>
+                {{/each}}
+            {{/if}}
+
+<form method="POST" action="/login">
+
+    <h1>Login</h1>
+
+
+
+    <p>Personal info</p>
+    <label for="usernmae">Username</label>
+    <input id="username" name="username" type="text" placeholder="JustMyself123...">
+
+    <label for="usernmae">Password</label>
+    <input id="password" name="password" type="password" placeholder="********">
+
+    <button type="submit">Login</button>
+</form>
+{{> footer}}

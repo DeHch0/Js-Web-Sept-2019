@@ -1,0 +1,31 @@
+{{> header}}
+
+<section class="expense-report">
+
+            <h1>ID: 192387048</h1>
+            <div class="report-date">
+                <img src="static/images/date.png" alt="">
+                <p>{{data.date}}</p>
+            </div>
+
+            <div class="report-category">
+                <img src="static/images/amount.png" alt="">
+                <p>Equipment - {{data.total}} лв</p>
+            </div>
+
+            <div class="report-merchant">
+                <p>{{data.merchant}}</p>
+            </div>
+
+            <div class="report-description">
+                <img src="static/images/hastag.png" alt="">
+                <p>{{data.description}}</p>
+            </div>
+
+            <div class="report-action">
+                <a disabled href="/remove/{{data._id}}">Stop tracking</a>
+            </div>
+        </section>
+
+
+{{> footer}}

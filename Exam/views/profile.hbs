@@ -1,0 +1,25 @@
+{{> header}}
+
+<table class="expenses-info">
+            <thead>
+                <tr>
+                    <th colspan="2">Expenses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Total Amount:</td>
+                    <td>{{profile.amount}} BGN</td>
+                </tr>
+                <tr>
+                    <td>Total Merches</td>
+                    <td>{{profile.expences.length}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="current-amount">
+            <p>Available amount: <span>{{available}} BGN</span></p>
+        </div>
+
+        {{> footer}}
